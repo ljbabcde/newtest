@@ -1,18 +1,9 @@
 {
-  "name": "northflank-ts-app",
+  "name": "ultimate-test",
   "version": "1.0.0",
-  "description": "A simple Node.js HTTP server in TypeScript",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node dist/index.js",
-    "build": "tsc",
-    "dev": "ts-node-dev --respawn --transpile-only index.ts"
-  },
-  "dependencies": {
-    "typescript": "^5.0.0"
-  },
-  "devDependencies": {
-    "@types/node": "^20.0.0",
-    "ts-node-dev": "^2.0.0"
+    "start": "node index.js",
+    "build": "echo 'Skip build'"
   }
 }
